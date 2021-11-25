@@ -1,0 +1,46 @@
+// masukkan fungsi-fungsi awalnya
+#include <iostream>
+#include <ncurses.h>
+#include <windows.h>
+#include <stdlib.h>
+using namespace std;
+
+//membuat int dadu nya
+int dadu(){
+	int x;
+	//untuk mencetak angka dari interval 1-6 seperti dadu
+
+	x = (rand()%6)+1;
+}
+
+//masukkan fungsi delay nya (bisa juga lngsng menggunakan Sleep)
+void delay(void){
+	
+	int delay;
+	delay = 1;
+	while(delay<300000000){
+	delay++;
+	
+}	
+}
+
+//masukan fungsi int main nya
+int main(){
+
+int a = 1, b = 1, x;
+	
+	initscr();
+	x = (rand()%6)+1;
+	
+/*	
+	- masukan tampilan menu
+	- masukan rumus leaderboard
+	- untuk menjalankan game nya
+						*/
+						
+						
+						
+refresh();
+getch();
+endwin();	
+}
